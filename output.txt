@@ -1,0 +1,47 @@
+jason@DESKTOP-GARGF4H:~/MyWorkSpace/CODE/OS_Program/assignment/assign5$ ./prog -alg FIFO -input input.txt
+Input file name: input.txt
+CPU Scheduling Alg: FIFO 
+CPU utilization: 86.268 %
+Throughput: 0.015 processes/ms
+Avg. Turnaround time: 236.801 ms
+Avg. Waiting time: 47.595 ms
+
+jason@DESKTOP-GARGF4H:~/MyWorkSpace/CODE/OS_Program/assignment/assign5$ ./prog -alg SJF -input input.txt
+Input file name: input.txt
+CPU Scheduling Alg: SJF 
+CPU utilization: 79.003 %
+Throughput: 0.013 processes/ms
+Avg. Turnaround time: 249.796 ms
+Avg. Waiting time: 45.230 ms
+
+jason@DESKTOP-GARGF4H:~/MyWorkSpace/CODE/OS_Program/assignment/assign5$ ./prog -alg PR -input input.txt
+Input file name: input.txt
+CPU Scheduling Alg: PR 
+CPU utilization: 83.353 %
+Throughput: 0.014 processes/ms
+Avg. Turnaround time: 224.283 ms
+Avg. Waiting time: 74.201 ms
+
+jason@DESKTOP-GARGF4H:~/MyWorkSpace/CODE/OS_Program/assignment/assign5$ ./prog -alg RR -quantum 10 -input input.txt
+Input file name: input.txt
+CPU Scheduling Alg: RR quantum: 10
+CPU utilization: 65.105 %
+Throughput: 0.008 processes/ms
+Avg. Turnaround time: 297.786 ms
+Avg. Waiting time: 42.195 ms
+
+jason@DESKTOP-GARGF4H:~/MyWorkSpace/CODE/OS_Program/assignment/assign5$ ./prog -alg RR -quantum 30 -input input.txt
+Input file name: input.txt
+CPU Scheduling Alg: RR quantum: 30
+CPU utilization: 86.340 %
+Throughput: 0.014 processes/ms
+Avg. Turnaround time: 238.708 ms
+Avg. Waiting time: 48.454 ms
+
+jason@DESKTOP-GARGF4H:~/MyWorkSpace/CODE/OS_Program/assignment/assign5$ ./prog -alg RR -quantum 60 -input input.txt
+Input file name: input.txt
+CPU Scheduling Alg: RR quantum: 60
+CPU utilization: 85.923 %
+Throughput: 0.014 processes/ms
+Avg. Turnaround time: 239.661 ms
+Avg. Waiting time: 49.402 ms
