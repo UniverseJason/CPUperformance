@@ -10,7 +10,7 @@
     int numCPU: the number of CPU burst
     int numIO: the number of IO burst
     int *CPU: the CPU burst list
-    int *IO: the IO burst list
+    int *IO: the IO burst list 
 */
 PCB_st *newPCBnode(int pid, int pr, int numCPU, int numIO, int *CPU, int *IO)
 {
