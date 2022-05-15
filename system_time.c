@@ -3,6 +3,8 @@
 #include <time.h>
 #include <sys/times.h>
 
+// sample code for system time
+
 int main(int argc, char *argv[])
 {
     struct timespec ts_begin, ts_end;
@@ -22,7 +24,7 @@ int main(int argc, char *argv[])
     
     elapsed = ts_end.tv_sec - ts_begin.tv_sec;
     elapsed += (ts_end.tv_nsec - ts_begin.tv_nsec) / 1000000000.0;
-    printf("elepsed time = %.3lf ms\n\n", elapsed*1000);
+    printf("elapsed time = %.3lf ms\n\n", elapsed*1000);
     
     return 0;
 }
