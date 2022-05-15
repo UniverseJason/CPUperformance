@@ -15,7 +15,7 @@ What the CPU Schedule thread does is apply the corresponding algorithms, get and
 `void* ioSystem(void *arg)`<br />
 The IO system thread will have a similar job as the CPU thread, the only difference is that it removes from the IO queue and simulate the IO operation via usleep and insert the process back to the CPU ready queue.
 
-After all the thread has been joined, the main function will calculate the statistics and information that has been collected during those threads. The usage will be shown as below:
+After all the thread has been joined, the main function will calculate the statistics and information that has been collected during those threads. The usage will be shown as below:<br />
 `prog -alg [FIFO|SJF|PR|RR] [-quantum [integer(ms)]] -input [file name]`
 
 ## Small issue
