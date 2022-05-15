@@ -20,3 +20,5 @@ After all the thread has been joined, the main function will calculate the stati
 
 ## Small issue
 Besides, the ready queue is implemented as a double-linked list, so that it will have an operation like append and delete first. One interesting discovery is that when code causes the segmentation fault due to the wrong access of the linked list (like reading a NULL pointer) during the execution on the terminal, it might produce Heisenbug, in other words, it works in the GDB but not work after compile, and should pay more attention when debugging the multi-thread project.
+
+And of course, there migth be some bug inside my code ;)
